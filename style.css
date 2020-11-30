@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.left {
+  float: left;
+  margin-bottom: 5px;
+}
+
+.slogan {
+  margin: -21px 4px;
+  position: absolute;
+  color: #fff;
+}
+
+.price {
+  color: rgba(0, 0, 255, 0.7);
+  font-size: large;
+  font-weight: 700;
+}
