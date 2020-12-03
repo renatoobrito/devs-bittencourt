@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ca290d;">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #b91b00;">
     <a class="navbar-brand" href="#">書店 | <strong>SHOTEN</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
             Explorar
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="sign.html">Entrar/Criar Conta</a>
+            <a class="dropdown-item" href="#">Entrar / Criar Conta</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Livros</a>
             <a class="dropdown-item" href="#">Categorias</a>
@@ -35,13 +35,14 @@
             <a class="dropdown-item" href="#">BestSellers</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Clientes</a>
-            <a class="dropdown-item" href="aboutme.html">Contato</a>
+            <a class="dropdown-item" href="#">Fale Conosco</a>
           </div>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="O que vai ler hoje?" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Procurar</button>
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit"
+          style="outline: none; color: white;">Procurar</button>
       </form>
     </div>
   </nav>
@@ -49,9 +50,9 @@
 
   <main class="container">
     <div class="text-center">
-      <h1 class="text-center m-2">Destaque da Semana</h1>
+      <h1 class="text-center m-4" style="letter-spacing: 1px;">Destaque da Semana</h1>
       <hr>
-      <section>
+      <section class="mt-5">
         <img class="left" src="img/nihon.jpg" alt="Viagem ao Japão" width="500">
         <p class="text-justify">
           Victor é brasileiro, mas todos os seus amigos insistem em chamá-lo de japonês.... Afinal, ele tem olhos
@@ -71,18 +72,33 @@
           <h5 class="card-title"><strong>Viagem ao Japão</strong></h5>
           <p class="card-text">Nunca li, mas gostaria de lê-lo um dia. - <small><i>Autor desconhecido</i></small></p>
           <p class="price">R$ 14,90</p>
-          <p>
-            <input type="checkbox" aria-label="Checkbox for following text input"> Livro físico
-          </p>
-          <p>
-            <input type="checkbox" aria-label="Checkbox for following text input"> Livro digital
-          </p>
+          <input type="checkbox" aria-label="Checkbox for following text input"> <span style="color: green;">Livro
+            físico</span>
+          <br>
+          <input type="checkbox" aria-label="Checkbox for following text input"> <span style="color: green;">Livro
+            digital</span>
         </div>
         <a href="#" class="btn btn-sm btn-primary">Comprar</a>
       </div>
-    </div>
-    </div>
   </main>
+
+  <footer>
+    <ul>
+      <li><a href="#">Entrar / Criar Conta</a></li>
+      <div class="dropdown-divider" style="width: 147px;"></div>
+      <li><a href="#">Livros</a></li>
+      <li><a href="#">Categorias</a></li>
+      <li><a href="#">Autores</a></li>
+      <li><a href="#">Editoras</a></li>
+      <li><a href="#">BestSellers</a></li>
+      <div class="dropdown-divider" style="width: 147px;"></div>
+      <a href="#">Fale Conosco</a>
+    </ul>
+    <div class="sub-footer">
+      <small>&copy;Shoten | Todos os direitos reservados. <a href="#">Termos de Uso</a> e <a href="#">Política de
+          Privacidade</a></small>
+    </div>
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
