@@ -1,3 +1,5 @@
+/* RESET */
+
 *,
 *::before,
 *::after {
@@ -5,6 +7,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* INDEX.HTML */
 
 .left {
   float: left;
@@ -51,4 +55,25 @@ a:hover {
   color: #b91b00;
   text-decoration: none;
   transition: 500ms;
+}
+
+.dropdown-menu, .dropdown-item {
+  color: #b91b00;
+}
+
+/* USER.HTML */
+
+.form {
+  padding: 40px 80px;
+  border: 1px solid rgb(138, 129, 129);
+  margin: 25px 0;
+  border-radius: 10px;
+}
+
+.check-term {
+  color: rgba(0, 0, 0, 0.656);
+}
+
+.user {
+  letter-spacing: 1px;
 }
